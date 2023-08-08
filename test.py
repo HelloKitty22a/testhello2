@@ -7,7 +7,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def do_claim():
     url = "https://hello.hashkey.com/api/user/kyc/claim"
-    headers = {"Authorization": "bearer aef925a0adcd4a08bb5fdcfd1f3d855c",
+    headers = {"Authorization": "bearer 2ff6cc423a1b48e888ef61c8badba76f",
              "Content-Type": "application/json",
              "User-Agent": "Mozilla",
              "Accept-Encoding": "gzip, deflate"}
